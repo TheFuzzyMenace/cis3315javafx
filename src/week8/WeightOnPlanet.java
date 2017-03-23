@@ -98,7 +98,7 @@ public class WeightOnPlanet extends Application {
 
         Button btn = new Button();
         btn.setText("Calculate");
-        btn.setStyle("-fx-font-size: 10pt; -fx-padding: 10; -fx-text-fill: #ff0000;-fx-background-color: #515966;");
+        btn.setStyle("-fx-font-size: 10pt; -fx-padding: 10; -fx-text-fill: #0000ff;-fx-background-color: #00ff00;");
         btn.setOnAction(e -> calculate());
 
         HBox hBoxButton = new HBox(10);

@@ -13,7 +13,8 @@ import javafx.scene.media.AudioClip;
 import javafx.stage.Stage;
 
 /**
- * Play some audio
+ * Set up 3 Buttons to Play, Loop, and Stop and audio clip from the internet.
+ * (you can also uses your local files if you want.. c://blah/blah/blah.mp3)
  *
  * @author Administrator
  */
@@ -40,6 +41,7 @@ public class C16N22 extends Application {
         audioClip.setCycleCount(Timeline.INDEFINITE);
         audioClip.play();
         });
+        
         btStop.setOnAction(e -> audioClip.stop());
 
         Scene scene = new Scene(hBox, 300, 250);
