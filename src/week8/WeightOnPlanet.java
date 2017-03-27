@@ -104,12 +104,15 @@ public class WeightOnPlanet extends Application {
         HBox hBoxButton = new HBox(10);
         hBoxButton.setAlignment(Pos.CENTER);
         hBoxButton.getChildren().add(btn);
+        
+        
 
         BorderPane borderPane = new BorderPane();
         borderPane.setStyle("-fx-padding: 20;-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #e5e4e3, #9b948d)");
         borderPane.setTop(hBoxTitle);
         borderPane.setCenter(gridPane);
         borderPane.setBottom(btn);
+        
 
         Scene scene = new Scene(borderPane);
 
